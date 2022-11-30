@@ -38,3 +38,6 @@ The file hello will be in the working directory You are not allowed to use comma
 11. Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 
 12. Create a script that creates a directory called my_dir with permissions 751 in the working directory.
+
+13. Write a script that changes the group owner to school for the file hello
+	* The file hello will be in the working directory
