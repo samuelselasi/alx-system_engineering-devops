@@ -42,4 +42,6 @@
 
 [20-hiago](./20-hiago) - Create a script that removes all letters c and C from input.
 
+[21-reverse](./21-reverse) - Write a script that reverse its input.
+
 
