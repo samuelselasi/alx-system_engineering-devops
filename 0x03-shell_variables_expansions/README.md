@@ -8,4 +8,6 @@
 
 [3-paths](./3-paths) - Create a script that counts the number of directories in the PATH.
 
+[4-global_variables](./4-global_variables) - Create a script that lists environment variables.
+
 
