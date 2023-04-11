@@ -16,3 +16,7 @@
 ### Manual QA Review
 **It is your responsibility to request a review for this project from a peer. If no peers have been reviewed, you should request a review from a TA or staff member.**
 ## Tasks
+
+[0. First 九 tasks](0-first_9_tasks.jpg), [or](./0-first_9_tasks.png)
+
+Complete the first 9 tasks.
