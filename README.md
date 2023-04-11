@@ -32,6 +32,7 @@ and more!
 1. [0x01-shell_permissions](./0x01-shell_permissions)
 2. [0x02-shell_redirections](./0x02-shell_redirections)
 3. [0x03-shell_variables_expansions](./0x03-shell_variables_expansions)
+4. [command_line_for_the_win](./command_line_for_the_win)
 
 ## Credits
 Collaborators are acknowledged within each project
