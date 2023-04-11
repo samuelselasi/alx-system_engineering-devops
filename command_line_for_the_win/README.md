@@ -17,10 +17,10 @@
 **It is your responsibility to request a review for this project from a peer. If no peers have been reviewed, you should request a review from a TA or staff member.**
 ## Tasks
 
-[0. First 九 tasks](0-first_9_tasks.jpg) or [this](./0-first_9_tasks.png)
+[0. First 九 tasks](./0-first_9_tasks.jpg) or [this](./0-first_9_tasks.png)
 
 Complete the first 9 tasks.
 
-[1. Reach חי completed tasks](1-next_9_tasks.jpg) or [this](1-next_9_tasks.png)
+[1. Reach חי completed tasks](./1-next_9_tasks.jpg) or [this](./1-next_9_tasks.png)
 
 Complete the 9 next tasks, getting to 18 total.
