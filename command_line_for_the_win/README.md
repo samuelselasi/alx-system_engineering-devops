@@ -24,3 +24,7 @@ Complete the first 9 tasks.
 [1. Reach חי completed tasks](./1-next_9_tasks.jpg) or [this](./1-next_9_tasks.png)
 
 Complete the 9 next tasks, getting to 18 total.
+
+[2. Reach the perfect cube, 27](./2-next_9_tasks.jpg) or [this](./2-next_9_tasks.png)
+
+Complete the 9 next tasks, getting to 27 total.
