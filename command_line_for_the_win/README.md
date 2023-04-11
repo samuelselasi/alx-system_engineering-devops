@@ -1,5 +1,8 @@
 # Command line for the win
 ### `Bash` `Scripting`
+
+![06AChAO](https://user-images.githubusercontent.com/85158665/231286525-e05c4bcf-e497-4345-aebd-55fb849341ea.png)
+
 ### Background Context
 
 [CMD CHALLENGE](https://cmdchallenge.com/) is a pretty cool game challenging you on Bash skills. Everything is done via the command line and the questions are becoming increasingly complicated. It’s a good training to improve your command line skills!
