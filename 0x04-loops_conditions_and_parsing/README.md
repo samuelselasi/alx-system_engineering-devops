@@ -52,10 +52,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Examples:
 
 Not passing `Shellcheck`:
-
+![Vxotqyj](https://user-images.githubusercontent.com/85158665/234814525-021aac78-8285-4630-af92-df31f55e40e6.png)
 
 Passing Shellcheck:
-
+![ubHWxDU](https://user-images.githubusercontent.com/85158665/234814583-fab4da85-603b-42cd-9245-44ea16568751.png)
 
 *****For every feedback, `Shellcheck` will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse [https://github.com/koalaman/shellcheck/wiki/SC2034](https://github.com/koalaman/shellcheck/wiki/SC2034).*****
 
