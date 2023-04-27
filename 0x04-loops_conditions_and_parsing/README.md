@@ -114,3 +114,25 @@ Note that:
 
 * The first line of my Bash script starts with `#!/usr/bin/env bash`
 * The second line of my Bash scripts is a comment explaining what it is doing
+
+[2. While Best School loop](./2-while_best_school)
+
+Write a Bash script that displays `Best School` 10 times.
+
+Requirements:
+
+* You must use the `while` loop (`for` and `until` are forbidden)
+```
+sylvain@ubuntu$ ./2-while_best_school
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+sylvain@ubuntu$
+```
