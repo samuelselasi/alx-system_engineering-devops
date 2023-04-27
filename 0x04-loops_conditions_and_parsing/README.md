@@ -587,6 +587,8 @@ sylvain@ubuntu$
 
 [13. Let's parse Apache logs](./102-lets_parse_apache_logs)
 
+![such_awk](https://user-images.githubusercontent.com/85158665/234942828-43fc7f76-08b8-490c-a259-26c09a662ba2.jpg)
+
 [Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server) is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career.
 
 As a Full-Stack Software Engineer, you have to master the art of parsing log files. Today we will do a simple parsing of [Apache log access files](https://intranet.alxswe.com/projects/251).
