@@ -52,11 +52,35 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Examples:
 
 Not passing `Shellcheck`:
+
 ![Vxotqyj](https://user-images.githubusercontent.com/85158665/234814525-021aac78-8285-4630-af92-df31f55e40e6.png)
 
 Passing Shellcheck:
+
 ![ubHWxDU](https://user-images.githubusercontent.com/85158665/234814583-fab4da85-603b-42cd-9245-44ea16568751.png)
 
 *****For every feedback, `Shellcheck` will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse [https://github.com/koalaman/shellcheck/wiki/SC2034](https://github.com/koalaman/shellcheck/wiki/SC2034).*****
 
 ## Tasks
+
+[0. Create a SSH RSA key pair](./0-RSA_public_key.pub)
+
+**Read for this task**:
+
+* [Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys)
+* [Windows users](https://docs.rackspace.com/support/how-to/generating-rsa-keys-with-ssh-puttygen/)
+
+**man**: `ssh-keygen`
+
+You will soon have to manage your own **servers** concept page hosted on remote [data centers](https://www.youtube.com/watch?v=iuqXFC_qIvA&t=46s). We need to set them up with your RSA public key so that you can access them via SSH.
+
+Create a RSA key pair.
+
+**Requirements**:
+
+* Share your public key in your answer file `0-RSA_public_key.pub`
+* Fill the `SSH public key` field of your [intranet profile](https://intranet.alxswe.com/users/my_profile) with the public key you just generated
+* **Keep the private key to yourself in a secure location**, you will use it later to connect to your servers using SSH. Some storing ideas are Dropbox, Google Drive, password manager, USB key. Failing to do so will prevent you to access your servers, which will prevent you from doing your projects
+* If you decide to add a passphrase to your key, make sure to save this passphrase in a secure location, you will not be able to use your keys without the passphrase
+
+SSH and RSA keys will be covered in depth in a later project.
