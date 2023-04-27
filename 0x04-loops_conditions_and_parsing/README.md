@@ -535,6 +535,8 @@ sylvain@ubuntu$
 
 [12. Tell the story of passwd](./101-tell_the_story_of_passwd)
 
+![03ca27392c6338e696fc0c3b08765f02c98457a1](https://user-images.githubusercontent.com/85158665/234881967-0761163f-2df4-481c-84bd-6a740ebab25e.jpg)
+
 Read:
 
 * [IFS (internal field separator)](https://tldp.org/LDP/abs/html/internalvariables.html)
