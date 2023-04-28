@@ -34,6 +34,7 @@ and more!
 3. [0x03-shell_variables_expansions](./0x03-shell_variables_expansions)
 4. [command_line_for_the_win](./command_line_for_the_win)
 5. [0x04-loops_conditions_and_parsing](./0x04-loops_conditions_and_parsing)
+6. [0x05-processes_and_signals](./0x05-processes_and_signals)
 
 ## Credits
 Collaborators are acknowledged within each project
