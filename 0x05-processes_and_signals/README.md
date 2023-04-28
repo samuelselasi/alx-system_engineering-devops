@@ -169,3 +169,40 @@ To infinity and beyond
 sylvain@ubuntu$
 ```
 Note that I `ctrl+c` (killed) the Bash script in the example.
+
+[5. Don't stop me now!](./5-dont_stop_me_now)
+
+We stopped our `4-to_infinity_and_beyond` process using `ctrl+c` in the previous task, there is actually another way to do this.
+
+Write a Bash script that stops [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) process.
+
+Requirements:
+
+* You must use kill
+
+**Terminal #0**
+```
+sylvain@ubuntu$ ./4-to_infinity_and_beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+Terminated
+sylvain@ubuntu$
+```
+**Terminal #1**
+```
+sylvain@ubuntu$ ./5-dont_stop_me_now 
+sylvain@ubuntu$
+```
+I opened 2 terminals in this example, started by running my [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) Bash script in terminal `#0` and then moved on terminal `#1` to run [5-dont_stop_me_now](./5-dont_stop_me_now). We can then see in terminal `#0` that my process has been terminated.
