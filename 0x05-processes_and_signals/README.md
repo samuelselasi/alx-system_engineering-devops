@@ -146,7 +146,26 @@ sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4557 bash
 sylvain@ubuntu$
 ```
-Here we can see that:
+**Here we can see that**:
 
 * For the first iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4555`
 * For the second iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4557`
+
+[4. To infinity and beyond](./4-to_infinity_and_beyond)
+
+Write a Bash script that displays `To infinity and beyond` indefinitely.
+
+**Requirements**:
+
+* In between each iteration of the loop, add a `sleep 2`
+```
+sylvain@ubuntu$ ./4-to_infinity_and_beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+^C
+sylvain@ubuntu$
+```
+Note that I `ctrl+c` (killed) the Bash script in the example.
