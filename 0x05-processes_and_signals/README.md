@@ -415,7 +415,7 @@ sylvain@ubuntu$
 
 [11. Zombie](./102-zombie.c)
 
-
+![C6mO7b3](https://user-images.githubusercontent.com/85158665/235224549-c3dcfa54-eb12-484c-bde6-236277731ada.jpg)
 
 Read [what a zombie process is](https://zombieprocess.wordpress.com/what-is-a-zombie-process/).
 
