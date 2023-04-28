@@ -274,3 +274,23 @@ sylvain@ubuntu$
 ```
 I started `7-highlander` in Terminal `#0` and then run [67-stop_me_if_you_can](./67-stop_me_if_you_can) in terminal `#1`, for every iteration we can see `I am invincible!!!` appearing in terminal `#0`.
 
+[8. Beheaded process](./8-beheaded_process)
+
+Write a Bash script that kills the process [7-highlander](./7-highlander).
+
+**Terminal #0**
+```
+sylvain@ubuntu$ ./7-highlander 
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+Killed
+sylvain@ubuntu$
+```
+**Terminal #1**
+```
+sylvain@ubuntu$ ./8-beheaded_process
+sylvain@ubuntu$
+```
+I started `7-highlander` in Terminal `#0` and then run [8-beheaded_process](./8-beheaded_process) in terminal #1 and we can see that the `7-highlander` has been killed.
