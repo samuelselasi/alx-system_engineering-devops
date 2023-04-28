@@ -341,6 +341,8 @@ Starting [100-process_and_pid_file](./100-process_and_pid_file) in the terminal 
 
 [10. Manage my process](./101-manage_my_process)
 
+![37975393ead381f4d27f268f7337c6d3013b4991](https://user-images.githubusercontent.com/85158665/235217028-29b6c49c-ecaa-42b3-8794-26066b083816.jpg)
+
 **Read**:
 
 * [&](https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html)
