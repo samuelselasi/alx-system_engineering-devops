@@ -39,3 +39,12 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 For those who want to know more and learn about all signals, check out [this article](https://www.computerhope.com/unix/signals.htm).
 
 ## Tasks
+
+[0. What is my PID](./0-what-is-my-pid)
+
+Write a Bash script that displays its own `PID`.
+```
+sylvain@ubuntu$ ./0-what-is-my-pid
+4120
+sylvain@ubuntu$
+```
