@@ -36,5 +36,7 @@ and more!
 5. [0x04-loops_conditions_and_parsing](./0x04-loops_conditions_and_parsing)
 6. [0x05-processes_and_signals](./0x05-processes_and_signals)
 
+## Articles
+* [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
 ## Credits
 Collaborators are acknowledged within each project
