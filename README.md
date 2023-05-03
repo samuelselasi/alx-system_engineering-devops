@@ -35,6 +35,7 @@ and more!
 4. [command_line_for_the_win](./command_line_for_the_win)
 5. [0x04-loops_conditions_and_parsing](./0x04-loops_conditions_and_parsing)
 6. [0x05-processes_and_signals](./0x05-processes_and_signals)
+7. [0x06-regular_expressions](./0x06-regular_expressions)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
