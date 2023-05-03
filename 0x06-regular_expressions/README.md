@@ -72,7 +72,7 @@ $
 
 [2. Repetition Token #1](./2-repetition_token_1.rb)
 
-
+<img width="967" alt="2" src="https://user-images.githubusercontent.com/85158665/235916780-c211c398-8974-4033-bc71-1a7428735c0a.png">
 
 **Requirements**:
 
@@ -81,7 +81,7 @@ $
 
 [3. Repetition Token #2](./3-repetition_token_2.rb)
 
-
+<img width="974" alt="3" src="https://user-images.githubusercontent.com/85158665/235916862-88c7605b-10dc-4022-93f7-bb80c8a49da0.png">
 
 **Requirements**:
 
@@ -89,6 +89,8 @@ $
 * Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
 [4. Repetition Token #3](./4-repetition_token_3.rb)
+
+<img width="956" alt="4" src="https://user-images.githubusercontent.com/85158665/235916989-460e6243-89c1-49a2-94d8-a684f574f8d0.png">
 
 **Requirements**:
 
@@ -141,6 +143,8 @@ sylvain@ubuntu$
 ```
 
 [7. OMG WHY ARE YOU SHOUTING?](./7-OMG_WHY_ARE_YOU_SHOUTING.rb)
+
+![shouting](https://user-images.githubusercontent.com/85158665/235917118-1f3d1652-1f43-4d38-ad9d-8749e7522055.jpg)
 
 **Requirement**:
 
