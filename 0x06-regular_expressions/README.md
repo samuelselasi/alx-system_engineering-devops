@@ -44,6 +44,8 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 ![Screenshot from 2023-05-03 10-13-57](https://user-images.githubusercontent.com/85158665/235890405-1930b7ee-7164-41c9-ae4b-df766598762b.png)
 
+
+
 **Requirements**:
 
 * The regular expression must match `School`
@@ -60,3 +62,10 @@ SchoolSchool$
 sylvain@ubuntu$ ./0-simply_match_school.rb "Grace Hopper" | cat -e
 $
 ```
+
+[1. Repetition Token #0](./1-repetition_token_0.rb)
+
+**Requirements**:
+
+* Find the regular expression that will match the above cases
+* Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
