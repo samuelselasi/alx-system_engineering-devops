@@ -42,6 +42,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 [0. Simply matching School](./0-simply_match_school.rb)
 
+![Screenshot from 2023-05-03 10-13-57](https://user-images.githubusercontent.com/85158665/235890405-1930b7ee-7164-41c9-ae4b-df766598762b.png)
 
 **Requirements**:
 
