@@ -44,8 +44,6 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 ![Screenshot from 2023-05-03 10-13-57](https://user-images.githubusercontent.com/85158665/235890405-1930b7ee-7164-41c9-ae4b-df766598762b.png)
 
-
-
 **Requirements**:
 
 * The regular expression must match `School`
@@ -64,6 +62,8 @@ $
 ```
 
 [1. Repetition Token #0](./1-repetition_token_0.rb)
+
+<img width="959" alt="e7db3c377d46453588fc84f3a975661d142fee91" src="https://user-images.githubusercontent.com/85158665/235893933-b69c3155-1f34-4c6a-90cc-d7f76b111dde.png">
 
 **Requirements**:
 
