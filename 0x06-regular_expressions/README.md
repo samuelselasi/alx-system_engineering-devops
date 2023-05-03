@@ -39,3 +39,23 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 * All your regex must be built for the `Oniguruma` library
 
 ## Tasks
+
+[0. Simply matching School](./0-simply_match_school.rb)
+
+
+**Requirements**:
+
+* The regular expression must match `School`
+* Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+**Example**:
+
+```
+sylvain@ubuntu$ ./0-simply_match_school.rb School | cat -e
+School$
+sylvain@ubuntu$ ./0-simply_match_school.rb "Best School" | cat -e
+School$
+sylvain@ubuntu$ ./0-simply_match_school.rb "School Best School" | cat -e
+SchoolSchool$
+sylvain@ubuntu$ ./0-simply_match_school.rb "Grace Hopper" | cat -e
+$
+```
