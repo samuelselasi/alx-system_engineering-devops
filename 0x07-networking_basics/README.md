@@ -154,7 +154,7 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 [2. MAC and IP address](./2-MAC_and_IP_address)
 
-
+![1e348ba3bcbb094b02922f821ffeb3d8c5438b7b](https://user-images.githubusercontent.com/85158665/236142926-8939c0e0-ff88-4136-b279-1b49c572af2d.jpg)
 
 **Questions**:
 
