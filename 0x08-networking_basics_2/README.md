@@ -1,6 +1,8 @@
 # 0x08. Networking basics #1
 ### `DevOps` `Network` `SysAdmin`
 
+![s7kpNYq](https://user-images.githubusercontent.com/85158665/236186259-1fd38b87-fbf8-4aa1-9145-baaffdad81ac.png)
+
 ## Resources
 
 **Read or watch**:
