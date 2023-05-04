@@ -128,6 +128,7 @@ How is the OSI model organized?
 
 [1. Types of network](./1-types_of_network)
 
+![4b995d4f8078b44afa968d68a98035d2bd7e8fac](https://user-images.githubusercontent.com/85158665/236141300-5bf06053-b8ce-4f36-84f6-86012007682e.jpg)
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
