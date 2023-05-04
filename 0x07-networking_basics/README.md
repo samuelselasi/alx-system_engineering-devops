@@ -172,6 +172,7 @@ What is an IP address?
 
 [3. UDP and TCP](./3-UDP_and_TCP)
 
+![3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c](https://user-images.githubusercontent.com/85158665/236146018-43dd7fe4-22ba-437c-ab36-46d30ab3fcc4.jpg)
 
 *Let’s fill the empty parts in the drawing above*.
 
