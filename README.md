@@ -37,6 +37,7 @@ and more!
 6. [0x05-processes_and_signals](./0x05-processes_and_signals)
 7. [0x06-regular_expressions](./0x06-regular_expressions)
 8. [0x07-networking_basics](./0x07-networking_basics)
+9. [0x08-networking_basics_2](./0x08-networking_basics_2)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
