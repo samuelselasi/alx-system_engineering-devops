@@ -245,6 +245,7 @@ sylvain@ubuntu$
 
 [5. Is the host on the network](./5-is_the_host_on_the_network)
 
+![giphy](https://user-images.githubusercontent.com/85158665/236152664-d5a0e1aa-d9fe-4cd0-8771-088ab87e11d8.gif)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
