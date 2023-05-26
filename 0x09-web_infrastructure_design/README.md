@@ -95,3 +95,27 @@ On a whiteboard, design a three server web infrastructure that hosts the website
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
 
+
+[2. Secured and monitored web infrastructure](./2-secured_and_monitored_web_infrastructure)
+
+On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored.
+
+**Requirements**:
+
+* You must add:
+	* 3 firewalls
+	* 1 SSL certificate to serve `www.foobar.com` over HTTPS
+	* 3 monitoring clients (data collector for Sumologic or other monitoring services)
+* You must be able to explain some specifics about this infrastructure:
+	* For every additional element, why you are adding it
+	* What are firewalls for
+	* Why is the traffic served over HTTPS
+	* What monitoring is used for
+	* How the monitoring tool is collecting data
+	* Explain what to do if you want to monitor your web server QPS
+* You must be able to explain what the issues are with this infrastructure:
+	* Why terminating SSL at the load balancer level is an issue
+	* Why having only one MySQL server capable of accepting writes is an issue
+	* Why having servers with all the same components (database, web server and application server) might be a problem
+
+Please, remember that everything must be written in English to further your technical ability in a variety of settings.
