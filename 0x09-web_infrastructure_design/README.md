@@ -141,3 +141,5 @@ Please, remember that everything must be written in English to further your tech
 	* For every additional element, why you are adding it
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
+![3-scale_up-Page-4](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/06b0d91f-0010-4597-868b-2067e5b0df16)
