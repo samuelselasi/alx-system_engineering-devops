@@ -97,6 +97,7 @@ On a whiteboard, design a three server web infrastructure that hosts the website
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
 
+![1-distributed_web_infrastructure-Page-2](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/6eb9a9f9-3c0a-4612-9abf-af49a9e19f91)
 
 [2. Secured and monitored web infrastructure](./2-secured_and_monitored_web_infrastructure)
 
