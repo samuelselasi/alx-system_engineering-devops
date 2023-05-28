@@ -6,12 +6,12 @@ https://youtu.be/lQNEW76KdYg
 ## Resources
 **Read or watch**:
 
-* [Network basics concept page]()
-* [Server concept page]()
-* [Web server concept page]()
-* [DNS concept page]()
-* [Load balancer concept page]()
-* [Monitoring concept page]()
+* Network basics
+* Server
+* Web server
+* DNS
+* Load balancer
+* Monitoring
 * [What is a database](https://www.oracle.com/ke/database/what-is-database/)
 * [What’s the difference between a web server and an app server?](https://www.infoworld.com/article/2077354/app-server-web-server-what-s-the-difference.html)
 * [DNS record types](https://www.site24x7.com/learn/dns-record-types.html)
