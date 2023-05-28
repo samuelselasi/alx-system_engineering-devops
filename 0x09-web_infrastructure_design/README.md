@@ -69,6 +69,8 @@ On a whiteboard, design a one server web infrastructure that hosts the website t
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
 
+![0-simple_web_stack-Page-1](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/1704875d-03c5-4ecc-b36e-46bea7e24da7)
+
 [1. Distributed web infrastructure](./1-distributed_web_infrastructure)
 
 On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`.
