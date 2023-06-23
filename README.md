@@ -40,6 +40,7 @@ and more!
 9. [0x08-networking_basics_2](./0x08-networking_basics_2)
 10. [0x09-web_infrastructure_design](./0x09-web_infrastructure_design)
 11. [0x0A-configuration_management](./0x0A-configuration_management)
+12. [attack_is_the_best_defense](./attack_is_the_best_defense)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
