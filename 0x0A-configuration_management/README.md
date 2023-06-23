@@ -13,7 +13,7 @@ Thanks to Puppet, we were able to restore our infrastructure to normal operation
 
 Obviously writing Puppet code for your infrastructure requires an investment of time and energy, but in the long term, it is for sure a must-have.
 
-
+![4i8il3B](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/ce27500e-d9bb-4799-9026-10179495e974)
 
 ## Resources
 **Read or watch**:
