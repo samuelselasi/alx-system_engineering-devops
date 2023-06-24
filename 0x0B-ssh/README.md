@@ -3,7 +3,7 @@
 
 #### Background Context
 
-
+![zPVRKhPsUP5lK](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/8fef5555-c17c-48ba-a84c-031f15023547)
 
 Along with this project, you have been attributed an Ubuntu server, living in a datacenter far far away. Like level 2 of the application process, you will connect using ssh. But contrary to level 2, you will not connect using a `password` but an `RSA` key. We’ve configured your server with the public key you created in the first task of a previous project shared in your intranet profile.
 
