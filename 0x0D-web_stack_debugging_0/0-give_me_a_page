@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script to fix curl error by just starting apache2
+sudo service apche2 start
