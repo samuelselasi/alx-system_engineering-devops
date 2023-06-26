@@ -43,6 +43,7 @@ and more!
 12. [attack_is_the_best_defense](./attack_is_the_best_defense)
 13. [0x0B-ssh](./0x0B-ssh)
 14. [0x0C-web_server](./0x0C-web_server)
+15. [0x0D-web_stack_debugging_0](./0x0D-web_stack_debugging_0)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
