@@ -126,7 +126,7 @@ That is one way of publishing your website pages to your server.
 
 [1. Install nginx web server](./1-install_nginx_web_server)
 
-
+![01cab59e881e31842b8d47a0974e8d3b6f0f2001](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/dd48ce75-7128-4d40-b1f9-10d100d139ab)
 
 **Readme**:
 
