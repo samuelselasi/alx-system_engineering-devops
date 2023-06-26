@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script to install nginx and redirect it to a different page
+apt-get update
+apt-get -y install nginx
+echo "Hello World!" | sudo tee /var/www/html/index.html
+replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.onepunchcoder.medium.com permanent;"
+sudo sed -i "s/server_name _;/$replacement/" /etc/nginx/sites-enabled/default
+service nginx restart
