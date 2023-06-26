@@ -1,7 +1,7 @@
 # 0x0D. Web stack debugging #0
 ### `DevOps` `SysAdmin` `Scripting` `Debugging`
 
-
+![uWLzjc8](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/495fa7d1-a220-493d-b183-3f0188bb1bfe)
 
 #### Background Context
 The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).
