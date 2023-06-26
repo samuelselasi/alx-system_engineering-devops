@@ -171,3 +171,47 @@ sylvain@ubuntu$
 In this example `34.198.248.145` is the IP of my `web-01` server. If you want to query the Nginx that is locally installed on your server, you can use `curl 127.0.0.1`.
 
 If things are not going as expected, make sure to check out Nginx logs, they can be found in `/var/log/`.
+
+[2. Setup a domain name](./2-setup_a_domain_name)
+
+[.TECH Domains](https://get.tech/) is one of the top domain providers. They are known for the stability and quality of their DNS hosting solution. We partnered with .TECH Domains so that you can learn about DNS.
+
+.TECH Domains worked with domain name registrars to give you access to a free domain name for a year. Please get the promo code in your [tools space](https://intranet.alxswe.com/dashboards/my_tools). Feel free to drop a thank you tweet for [.TECH Domains](https://twitter.com/dottechdomains).
+
+Provide the domain name in your answer file.
+
+**Requirement**:
+
+* provide the domain name only (example: `foobar.tech`), no subdomain (example: `www.foobar.tech`)
+* configure your DNS records with an A entry so that your root domain points to your web-01 IP address `Warning: the propagation of your records can take time (~1-2 hours)`
+* go to [your profile](https://intranet.alxswe.com/users/my_profile) and enter your domain in the `Project website url` field
+
+**Example**:
+```
+sylvain@ubuntu$ cat 2-setup_a_domain_name
+myschool.tech
+sylvain@ubuntu$
+sylvain@ubuntu$ dig myschool.tech
+
+; <<>> DiG 9.10.6 <<>> myschool.tech
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26785
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;myschool.tech.     IN  A
+
+;; ANSWER SECTION:
+myschool.tech.  7199    IN  A   184.72.193.201
+
+;; Query time: 65 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Aug 02 09:44:36 PDT 2019
+;; MSG SIZE  rcvd: 65
+
+sylvain@ubuntu$
+```
+When your domain name is setup, please verify the Registrar here: [https://whois.whoisxmlapi.com/](https://whois.whoisxmlapi.com/) and you must see in the JSON response: `"registrarName": "Dotserve Inc"`
