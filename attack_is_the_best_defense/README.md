@@ -105,4 +105,6 @@ Password-based authentication systems can be easily broken by using a dictionary
 Once you found the password, share it in your answer file.
 
 # Procedure
-
+1. Search for a long list of possible passwords to to add to your dictionary
+2. Pray the password is in your dictionary
+**It took about 8 minutes for my dictionary to crack the password.**
