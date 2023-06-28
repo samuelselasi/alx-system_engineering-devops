@@ -74,6 +74,23 @@ You can download the script `user_authenticating_into_server` [here](https://int
 
 **DISCLAIMER**: you will probably see `Authentication failed: Bad username / password` in the `tcpdump` trace. It’s normal, we deleted the user to our Sendgrid account. You can’t verify the password found via Sendgrid, only the correction system can!
 
+# Procedure
+1. Create a sendgrid account to send email with Telnet from terminal
+2. From sendgrid credentials, create program to convert from normal text to base64 encryption and and back
+3. Analyze how a message is sent successfully
+4. Now use tcpdump to capture network activity on the port used for sendgrid
+5. Send another message using another shell so tcpdump can capture its activities
+6. Now send another message with sendgrid on the same port in another shell
+7. Stop tcpdump after sending the email
+8. Download wireshark to analyze the captured network activity
+9. You will see your password when you search through(in base64) since you already know what it looks like
+10. To find the password of the script provided run the script with tcp dump capturing network activity in another opened shell
+11. Now use wireshark the same way and search the same place you found your password
+12. Use the decoder to decode from base64 and you have your password!
+***I will write a blog on this if sendgrid unbans my IP***
+
+
+
 [1. Dictionary attack](./1-dictionary_attack)
 
 Password-based authentication systems can be easily broken by using a dictionary attack (you’ll have to find your own password dictionary). Let’s try it on an SSH account.
@@ -86,3 +103,6 @@ Password-based authentication systems can be easily broken by using a dictionary
 * Hint: the password is `11` characters long
 
 Once you found the password, share it in your answer file.
+
+# Procedure
+
