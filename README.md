@@ -44,6 +44,7 @@ and more!
 13. [0x0B-ssh](./0x0B-ssh)
 14. [0x0C-web_server](./0x0C-web_server)
 15. [0x0D-web_stack_debugging_0](./0x0D-web_stack_debugging_0)
+16. [0x0F-load_balancer](./0x0F-load_balancer)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
