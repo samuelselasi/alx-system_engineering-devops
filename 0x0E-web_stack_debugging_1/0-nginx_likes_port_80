@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A bash script that creates a symbolic link in the sites-enabled directory
 # that points to the default configuration file, effectively enabling the
-# default site configuration in Nginx.
+# default site configuration in Nginx
 sudo ln -s -f /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
