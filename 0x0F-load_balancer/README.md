@@ -1,6 +1,7 @@
 # 0x0F. Load balancer
 ### `DevOps` `SysAdmin`
 
+![qfdked8](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/660c56e7-c358-41a7-860d-d91a0e73a69b)
 
 ### Background Context
 You have been given `2` additional servers:
