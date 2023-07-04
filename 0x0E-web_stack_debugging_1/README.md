@@ -1,6 +1,7 @@
 # 0x0E. Web stack debugging #1
 ## `DevOps` `SysAdmin` `Scripting` `Debugging`
 
+![B4eeypV](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/10f2aed1-d80c-4a2c-9ddc-cf2702289128)
 
 ## Requirements
 ### General
