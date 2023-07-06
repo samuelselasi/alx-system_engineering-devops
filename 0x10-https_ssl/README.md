@@ -1,10 +1,12 @@
 # 0x10. HTTPS SSL
 ### `DevOps` `SysAdmin` `Security`
 
+![FlhGPEK](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/86f31901-daa0-4cee-9e41-5267ab283c3b)
 
 ### Background Context
 ### What happens when you don’t secure your website traffic?
 
+![xCmOCgw](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/c398e5f9-db8c-4680-9063-7097b00dd2dc)
 
 ## Resources
 **Read or watch**:
