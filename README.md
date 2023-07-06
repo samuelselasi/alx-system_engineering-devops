@@ -46,6 +46,7 @@ and more!
 15. [0x0D-web_stack_debugging_0](./0x0D-web_stack_debugging_0)
 16. [0x0F-load_balancer](./0x0F-load_balancer)
 17. [0x0E-web_stack_debugging_1](./0x0E-web_stack_debugging_1)
+18. [0x10-https_ssl](./0x10-https_ssl)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
