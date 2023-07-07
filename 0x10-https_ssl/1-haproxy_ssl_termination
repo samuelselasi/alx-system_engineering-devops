@@ -41,7 +41,6 @@ frontend  selasi-frontend-http
 
 frontend selasi-frontend-https
         bind *:443 ssl crt /etc/haproxy/certs/selasi.tech.pem
-        # bind *:443 ssl crt /etc/haproxy/certs/www.selasi.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend selasi-backend
 
@@ -49,6 +48,3 @@ backend selasi-backend
         balance roundrobin
 	server 192925-web-01 3.90.70.66
 	server 192925-web-02 100.26.231.45
-	# server 192925-lb-01 100.26.236.194
-
-	http-request redirect location /holberton.html if { path -i / }
