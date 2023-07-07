@@ -51,4 +51,4 @@ backend selasi-backend
 	server 192925-web-02 100.26.231.45
 	# server 192925-lb-01 100.26.236.194
 
-	http-request redirect location /holberton if { path -i / }
+	http-request redirect location /holberton.html if { path -i / }
