@@ -47,6 +47,7 @@ and more!
 16. [0x0F-load_balancer](./0x0F-load_balancer)
 17. [0x0E-web_stack_debugging_1](./0x0E-web_stack_debugging_1)
 18. [0x10-https_ssl](./0x10-https_ssl)
+19. [0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
