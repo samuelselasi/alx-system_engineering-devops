@@ -38,6 +38,31 @@ Write a blog post explaining what happens when you type `https://www.google.com`
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
 
+[1. Everything's better with a pretty diagram](./1-what_happen_when_diagram)
+
+Add a schema to your blog post illustrating the flow of the request created when you type `https://www.google.com` in your browser and press `Enter`.
+
+**The diagram should show**:
+
+* DNS resolution
+* that the request hitting server IP on the appropriate port
+* that the traffic is encrypted
+* that the traffic goes through a firewall
+* that the request is distributed via a load balancer
+* that the web server answers the request by serving a web page
+* that the application server generates the web page
+* that the application server request data from the database
+
+Gliffy is free and what I personally use, but feel free to use what fits you best.
+
+Some unrelated examples:
+
+
+
+Share the URL of your diagram image in your answer file and il the field below.
+
+Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
+
 [2. Contribute!](./2-contribution-to_what-happens-when_github_answer)
 
 Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.
