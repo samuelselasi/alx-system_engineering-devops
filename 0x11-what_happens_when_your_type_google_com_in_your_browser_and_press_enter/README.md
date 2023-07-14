@@ -57,7 +57,7 @@ Gliffy is free and what I personally use, but feel free to use what fits you bes
 
 Some unrelated examples:
 
-
+![R8R3sqC (1)](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/cd567dbc-c9b5-4f34-b438-827361073011)
 
 Share the URL of your diagram image in your answer file and il the field below.
 
