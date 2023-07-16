@@ -37,6 +37,7 @@ frontend selasi-frontend-http
         bind *:80
         mode http
         http-request set-header X-Forwarded-Proto http
+	# redirect scheme https code 301 if { hdr(host) -i www.selasi.tech }
         default_backend selasi-backend
 
 frontend selasi-frontend-https
