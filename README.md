@@ -48,7 +48,8 @@ and more!
 17. [0x0E-web_stack_debugging_1](./0x0E-web_stack_debugging_1)
 18. [0x10-https_ssl](./0x10-https_ssl)
 19. [0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
-20. [0x13-firewall](./0x13-firewall)
+20. [0x12-web_stack_debugging_2](./0x12-web_stack_debugging_2)
+21. [0x13-firewall](./0x13-firewall)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
