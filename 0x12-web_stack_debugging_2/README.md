@@ -18,7 +18,7 @@
 
 [0. Run software as another user](./0-iamsomeoneelse)
 
-
+![eaeff07a715ff880b1ceb8e863a1d141a74a7f85](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/71a0591f-7474-43f5-b4a7-f99223960722)
 
 The user `roo`t is, on Linux, the “**superuser**”. It can do anything it wants, that’s a good and bad thing. A good practice is that one should never be logged in the `root` user, as if you fat finger a command and for example run `rm -rf /`, there is no comeback. That’s why it is preferable to run as a privileged user, meaning that the user also has the ability to perform tasks that the `root` user can do, just need to use a specific command that you need to discover.
 
