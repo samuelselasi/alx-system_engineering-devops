@@ -1,10 +1,12 @@
 # 0x13. Firewall
 ### `DevOps` `SysAdmin` `Security`
 
+![V1HjQ1Y](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/5b57e254-88c4-4867-bdad-45fd720b89b2)
+
 ### Background Context
 #### Your servers without a firewall…
 
-
+![holbertonschool-firewall](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/bd2d0f05-d567-4506-aea2-214baa8d5f51)
 
 ### Resources
 **Read or watch**:
