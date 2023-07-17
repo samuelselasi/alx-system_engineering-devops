@@ -1,6 +1,7 @@
 # 0x12. Web stack debugging #2
 ### `DevOps` `SysAdmin` `Scripting` `Debugging`
 
+![99littlebugsinthecode-holberton](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/34200813-54b6-4822-b614-91980697ef69)
 
 ## Requirements
 ### General
