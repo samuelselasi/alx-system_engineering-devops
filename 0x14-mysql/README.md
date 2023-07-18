@@ -1,6 +1,7 @@
 # 0x14. MySQL
 ### `DevOps` `SysAdmin` `MySQL`
 
+![KkrkDHT](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/3d4948a4-322c-4ec8-a829-bff37b2eb4e1)
 
 ## Resources
 **Read or watch**:
