@@ -34,7 +34,7 @@
 
 ## Tasks
 
-[0. Install MySQL](./0-installation-steps)
+[0. Install MySQL](./0-installation-steps.md)
 
 First things first, let’s get MySQL installed on **both** your `web-01` and `web-02` servers.
 
