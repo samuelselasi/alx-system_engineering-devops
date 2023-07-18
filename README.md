@@ -50,6 +50,7 @@ and more!
 19. [0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
 20. [0x12-web_stack_debugging_2](./0x12-web_stack_debugging_2)
 21. [0x13-firewall](./0x13-firewall)
+22. [0x14-mysql](./0x14-mysql)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
