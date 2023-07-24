@@ -51,6 +51,7 @@ and more!
 20. [0x12-web_stack_debugging_2](./0x12-web_stack_debugging_2)
 21. [0x13-firewall](./0x13-firewall)
 22. [0x14-mysql](./0x14-mysql)
+23. [0x15-api](./0x15-api)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
