@@ -5,8 +5,8 @@ returns information about his/her TODO list progress and
 export data in the CSV format.
 """
 
-from sys import argv
 import requests
+from sys import argv
 
 
 if __name__ == '__main__':
