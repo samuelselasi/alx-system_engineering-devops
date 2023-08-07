@@ -4,6 +4,8 @@
 ## Tasks
 [0. My first postmortem](./README.md)
 
+![pQ9YzVY](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/8c9b905c-e988-4709-9af1-2e4fba5287da)
+
 ### Summary
 	* Duration:
 	* Impact:
@@ -13,7 +15,7 @@
 	* Time issue was detected:
 	* How issue was detected:
 	* Actions taken:
-	* Misleading investigations/debugging paths"
+	* Misleading investigations/debugging paths:
 	* How incident was resolved:
 
 ### Root Cause & Resolution
