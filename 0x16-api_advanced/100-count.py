@@ -6,39 +6,51 @@ sorted count of given keywords from a subreddit
 import requests
 
 
-def count_words(subreddit, word_list, after=None, count=None):
+def count_words(subreddit, word_list, after="", word_dic={}):
     """Count occurrences of words in subreddit titles"""
+    if not word_dic:
+        for word in word_list:
+            word_dic[word] = 0
+
     if after is None:
-        after = ""
-        count = [0] * len(word_list)
+        word_list = [[key, value] for key, value in word_dic.items()]
+        word_list = sorted(word_list, key=lambda x: (-x[1], x[0]))
+        for w in word_list:
+            if w[1]:
+                print("{}: {}".format(w[0].lower(), w[1]))
+        return None
 
-    headers = {'User-Agent': 'selBot/2.2'}
     URL = f'https://www.reddit.com/r/{subreddit}/hot.json'
+    headers = {'User-Agent': 'selBot/2.2'}
+
     params = {'after': after}
-    response = requests.get(URL, params=params, headers=headers,
-                            allow_redirects=False)
-    if response.status_code == 200:
-        data = response.json()
 
-        for topic in data['data']['children']:
-            for word in topic['data']['title'].split():
-                for i, word_in_list in enumerate(word_list):
-                    if word_in_list.lower() == word.lower():
-                        count[i] += 1
+    r = requests.get(URL, headers=headers, params=params,
+                     allow_redirects=False)
 
-        after = data['data']['after']
-        if after is None:
-            save = []
-            for i in range(len(word_list)):
-                for j in range(i + 1, len(word_list)):
-                    if word_list[i].lower() == word_list[j].lower():
-                        save.append(j)
-                        count[i] += count[j]
+    if r.status_code != 200:
+        return None
 
-            combined_data = sorted(zip(count, word_list),
-                                   key=lambda x: (-x[0], x[1].lower()))
-            for cnt, word in combined_data:
-                if cnt > 0 and word_list.index(word) not in save:
-                    print(f"{word.lower()}: {cnt}")
-        else:
-            count_words(subreddit, word_list, after, count)
+    try:
+        js = r.json()
+
+    except ValueError:
+        return None
+
+    try:
+
+        data = js.get("data")
+        after = data.get("after")
+        children = data.get("children")
+        for child in children:
+            post = child.get("data")
+            title = post.get("title")
+            lower = [s.lower() for s in title.split(' ')]
+
+            for w in word_list:
+                word_dic[w] += lower.count(w.lower())
+
+    except Exception:
+        return None
+
+    count_words(subreddit, word_list, after, word_dic)
