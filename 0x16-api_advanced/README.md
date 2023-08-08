@@ -145,3 +145,6 @@ wintermancer@lapbox ~/reddit_api/project $ python3 2-main.py this_is_a_fake_subr
 None
 ```
 
+[3. Count it!](./100-count.py)
+
+
