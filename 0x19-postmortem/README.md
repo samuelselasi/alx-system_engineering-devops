@@ -43,3 +43,5 @@ In the last hours, we've conducted an internal review and analysis of the outage
 * Improve process for auditing all high-risk configuration options.
 
 Alx is committed to continually and quickly improving our technology and operational processes to prevent outages. We appreciate your patience and again apologize for the impact to you, your users and your organization. We thank you for your business and continued support.
+
+![Screenshot from 2023-08-08 20-08-30](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/4881937f-2b1d-4809-9d86-4296739e4ced)
