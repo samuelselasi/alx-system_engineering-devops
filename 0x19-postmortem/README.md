@@ -8,13 +8,13 @@
 
 ### Summary
 
-From 6:00 AM to 7:50 PM GMT, reuests to Holberton API hosted on `web stack debugging #3` sandbox resulted in 500 error response messages. Any applications that rely on this API returned errors or had reduced functionality. At its peak, the issue affected 100% of traffic to this API infrastructure. The root cause of this outage was a typing mistake in configuration files that caused to API to malfunction.
+From 6:00 AM to 7:50 PM GMT, reuests to Holberton API hosted on [0x17-web_stack_debugging_3](../0x17-web_stack_debugging_3) sandbox resulted in 500 error response messages. Any applications that rely on this API returned errors or had reduced functionality. At its peak, the issue affected 100% of traffic to this API infrastructure. The root cause of this outage was a typing mistake in configuration files that caused to API to malfunction.
 
 ### Timeline (all GMT)
 
 * 5:45 AM: Configuration push behins
 * 5:46 AM: Outage begins
-* 6:00 AM: Pagers alerted teams(Alx released web stack debugging #3)
+* 6:00 AM: Pagers alerted teams(Alx released [0x17-web_stack_debugging_3](../0x17-web_stack_debugging_3))
 * 7:30 PM: Check status of Aache2(running)
 * 7:40 PM: Check PHP configuration files and fix wp-settings.php
 * 7:49 PM: Server restarts begin
