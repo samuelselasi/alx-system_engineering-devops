@@ -3,6 +3,7 @@
 
 ## Background Context
 
+![d42WuBh](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/300383ac-e9b5-4b5a-8f42-808fc84ebc82)
 
 When debugging, sometimes logs are not enough. Either because the software is breaking in a way that was not expected and the error is not being logged, or because logs are not providing enough information. In this case, you will need to go down the stack, the good news is that this is something Holberton students can do :)
 
