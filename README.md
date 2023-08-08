@@ -52,7 +52,8 @@ and more!
 21. [0x13-firewall](./0x13-firewall)
 22. [0x14-mysql](./0x14-mysql)
 23. [0x15-api](./0x15-api)
-24. [0x19-postmortem](./0x19-postmortem)
+24. [0x16-api_advanced](./0x16-api_advanced)
+25. [0x19-postmortem](./0x19-postmortem)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
