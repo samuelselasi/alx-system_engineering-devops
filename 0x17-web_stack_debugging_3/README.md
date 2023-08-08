@@ -79,3 +79,5 @@ root@e514b399d69d:~# curl -s 127.0.0.1:80 | grep Holberton
         <p>Yet another bug by a Holberton student</p>
 root@e514b399d69d:~#
 ```
+## Fixed
+![Screenshot from 2023-08-08 20-08-30](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/c0ef0a52-e188-4ae4-bafb-9dc61f6e2e19)
