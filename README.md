@@ -54,7 +54,8 @@ and more!
 23. [0x15-api](./0x15-api)
 24. [0x16-api_advanced](./0x16-api_advanced)
 25. [0x17-web_stack_debugging_3](./0x17-web_stack_debugging_3)
-26. [0x19-postmortem](./0x19-postmortem)
+26. [0x18-webstack_monitoring](./0x18-webstack_monitoring)
+27. [0x19-postmortem](./0x19-postmortem)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
