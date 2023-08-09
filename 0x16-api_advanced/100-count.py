@@ -3,6 +3,7 @@
 Script that parses title of hot topics and prints a
 sorted count of given keywords from a subreddit
 """
+
 import requests
 
 
