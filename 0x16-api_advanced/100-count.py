@@ -41,8 +41,8 @@ def count_words(subreddit, word_list, after=None, count=None):
             for cnt, word in combined_data:
                 if cnt > 0 and word_list.index(word) not in save:
                     successful = False
-                    #print(f"{word.lower()}: {cnt}")
-            if successful == False:
+                    # print(f"{word.lower()}: {cnt}")
+            if successful is False:
                 print("OK")
             else:
                 print("OK")
