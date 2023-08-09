@@ -37,14 +37,8 @@ def count_words(subreddit, word_list, after=None, count=None):
 
             combined_data = sorted(zip(count, word_list),
                                    key=lambda x: (-x[0], x[1].lower()))
-            successful = True
             for cnt, word in combined_data:
                 if cnt > 0 and word_list.index(word) not in save:
-                    successful = False
-                    # print(f"{word.lower()}: {cnt}")
-            if successful is False:
-                print("OK")
-            else:
-                print("OK")
+                    print(f"{word.lower()}: {cnt}")
         else:
             count_words(subreddit, word_list, after, count)
