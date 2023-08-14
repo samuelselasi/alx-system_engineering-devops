@@ -248,3 +248,9 @@ Let’s serve what you built for [AirBnB clone - Web dynamic]() on `web-01`.
 After loading, your website should look like this:
 
 ![7a8a7c33021b1b74f9cdc1fd8f855bdb1f8cd44e](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/c3d4b5be-6c8d-4b4d-b6d1-e9ae61c46195)
+
+![Screenshot from 2023-08-14 23-29-58](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/0ccd1c91-01eb-40da-8ee8-fe84a7ef93b7)
+
+![Screenshot from 2023-08-14 23-29-33](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/704b4f5b-71fe-465a-a05f-04300a613cbf)
+
+![Screenshot from 2023-08-14 23-29-23](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/713b4949-45ef-4d08-bb2e-08e25a91fed3)
