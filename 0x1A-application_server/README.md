@@ -136,3 +136,66 @@ vagrant@ubuntu-xenial:~$ curl 35.231.193.217/airbnb-onepage/
 Hello HBNB!vagrant@ubuntu-xenial:~$
 ```
 
+[3. Add a route with query parameters](./3-app_server-nginx_config)
+
+Building on what you did in the previous tasks, let’s expand our web application by adding another service for `Gunicorn` to handle. In `AirBnB_clone_v2/web_flask/6-number_odd_or_even`, the route `/number_odd_or_even/<int:n>` should already be defined to render a page telling you whether an integer is odd or even. You’ll need to configure `Nginx` to proxy HTTP requests to the route `/airbnb-dynamic/number_odd_or_even/(any integer)` to a `Gunicorn` instance listening on port `5001`. The key to this exercise is getting `Nginx` configured to proxy requests to processes listening on two different ports. You are not expected to keep your application server processes running. If you want to know how to run multiple instances of `Gunicorn` without having multiple terminals open, see tips below.
+
+**Requirements**:
+
+* `Nginx` must serve this page both locally and on its public IP on port `80`.
+* `Nginx` should proxy requests to the route `/airbnb-dynamic/number_odd_or_even/(any integer)` the process listening on port `5001`.
+* Include your `Nginx` config file as `3-app_server-nginx_config`.
+
+**Tips**:
+
+* Check out these articles/docs for clues on how to configure `Nginx`: [Understanding Nginx Server and Location Block Selection Algorithms](https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms#matching-location-blocks), [Understanding Nginx Location Blocks Rewrite Rules](http://blog.pixelastic.com/2013/09/27/understanding-nginx-location-blocks-rewrite-rules/), [Nginx Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/#).
+* In order to spin up a Gunicorn instance as a detached process you can use the terminal multiplexer utility `tmux`. Enter the command `tmux new-session -d 'gunicorn --bind 0.0.0.0:5001 web_flask.6-number_odd_or_even:app'` and if successful you should see no output to the screen. You can verify that the process has been created by running `pgrep gunicorn` to see its PID. Once you’re ready to end the process you can either run `tmux a` to reattach to the processes, or you can run `kill <PID>` to terminate the background process by ID.
+
+**Example**:
+
+### Terminal 1:
+```
+ubuntu@229-web-01:~/AirBnB_clone_v2$ tmux new-session -d 'gunicorn --bind 0.0.0.0:5000 web_flask.0-hello_route:app'
+ubuntu@229-web-01:~/AirBnB_clone_v2$ pgrep gunicorn
+1661
+1665
+ubuntu@229-web-01:~/AirBnB_clone_v2$ tmux new-session -d 'gunicorn --bind 0.0.0.0:5001 web_flask.6-number_odd_or_even:app'
+ubuntu@229-web-01:~/AirBnB_clone_v2$ pgrep gunicorn
+1661
+1665
+1684
+1688
+
+ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5000/airbnb-onepage/
+Hello HBNB!ubuntu@229-web-01:~/AirBnB_clone_v2$
+
+ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5001/number_odd_or_even/6
+<!DOCTYPE html>
+<HTML lang="en">
+  <HEAD>
+    <TITLE>HBNB</TITLE>
+  </HEAD>
+  <BODY><H1>Number: 6 is even</H1></BODY>
+</HTML>ubuntu@229-web-01:~/AirBnB_clone_v2
+ubuntu@229-web-01:~$ 
+ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1/airbnb-dynamic/number_odd_or_even/5
+<!DOCTYPE html>
+<HTML lang="en">
+  <HEAD>
+    <TITLE>HBNB</TITLE>
+  </HEAD>
+  <BODY><H1>Number: 5 is odd</H1></BODY>
+</HTML>ubuntu@229-web-01:~/AirBnB_clone_v2$
+```
+### Local machine:
+```
+vagrant@ubuntu-xenial:~$ curl 35.231.193.217/airbnb-dynamic/number_odd_or_even/6<!DOCTYPE html>
+<HTML lang="en">
+  <HEAD>
+    <TITLE>HBNB</TITLE>
+  </HEAD>
+  <BODY><H1>Number: 6 is even</H1></BODY>
+</HTML>vagrant@ubuntu-xenial:~$
+```
+
+
