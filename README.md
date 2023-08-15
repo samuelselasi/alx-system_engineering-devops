@@ -57,6 +57,7 @@ and more!
 26. [0x18-webstack_monitoring](./0x18-webstack_monitoring)
 27. [0x19-postmortem](./0x19-postmortem)
 28. [0x1A-application_server](./0x1A-application_server)
+29. [0x1B-web_stack_debugging_4](./0x1B-web_stack_debugging_4)
 
 ## Articles
 * [Exploring the Linux Shell](https://medium.com/@onepunchcoder/exploring-the-linux-shell-1d141d5368bd)
