@@ -1,6 +1,7 @@
 # 0x1B. Web stack debugging #4
 ##### `DevOps` `SysAdmin` `Scripting` `Debugging`
 
+![frdkCrb](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/dce3f4f7-7a86-4467-9bc0-4ed660ecbeaa)
 
 ## Requirements
 ### General
