@@ -253,4 +253,39 @@ After loading, your website should look like this:
 
 ![Screenshot from 2023-08-14 23-29-33](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/704b4f5b-71fe-465a-a05f-04300a613cbf)
 
-![Screenshot from 2023-08-14 23-29-23](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/713b4949-45ef-4d08-bb2e-08e25a91fed3)
+![Screenshot from 2023-08-14 23-29-23](https://github.com/siamuelselasi/alx-system_engineering-devops/assets/85158665/713b4949-45ef-4d08-bb2e-08e25a91fed3)
+
+
+[6. Deploy it!](./gunicorn.service)
+
+Once you’ve got your application server configured, you want to set it up to run by default when Linux is booted. This way when your server inevitably requires downtime (you have to shut it down or restart it for one reason or another), your `Gunicorn` process(es) will start up as part of the system initialization process, freeing you from having to manually restart them. For this we will use `systemd`. You can read more about `systemd` in the documentation posted at the top of this project but to put it succinctly, it is a system initialization daemon for the Linux OS (amongst other things). For this task you will write a `systemd` script which will start your application server for you. As mentioned in the video at the top of the project, you do not need to create a Unix socket to bind the process to.
+
+**Requirements**:
+
+* Write a `systemd` script which starts a `Gunicorn` process to serve the same content as the previous task (`web_dynamic/2-hbnb.py`)
+* The `Gunicorn` process should spawn 3 worker processes
+* The process should log errors in `/tmp/airbnb-error.log`
+* The process should log access in `/tmp/airbnb-access.log`
+* The process should be bound to port `5003`
+* Your `systemd` script should be stored in the appropriate directory on `web-01`
+* Make sure that you start the `systemd` service and leave it running
+* Upload `gunicorn.service` to GitHub
+
+```
+bob@dylan:~$ curl -s 127.0.0.1:5003/2-hbnb | tail -5
+    </div>
+    <footer>
+      <p>Holberton School</p>
+    </footer>
+  </body>
+</html>
+bob@dylan:~$ 
+bob@dylan:~$ curl -s 12.13.14.15/ | tail -5
+    </div>
+    <footer>
+      <p>Holberton School</p>
+    </footer>
+  </body>
+</html>
+bob@dylan:~$
+```
