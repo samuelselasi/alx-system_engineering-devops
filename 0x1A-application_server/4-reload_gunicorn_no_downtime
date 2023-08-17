@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # A script that reloads Gunicorn in a graceful way
-sudo pkill -HUP gunicorn
-sudo systemctl restart gunicorn.service
-sudo systemctl restart gunicorn_api.service
+gunicorn_master_pid=$(pgrep gunicorn)
+sudo kill -HUP "$gunicorn_master_pid"
+# sudo systemctl restart gunicorn.service
+# sudo systemctl restart gunicorn_api.service
